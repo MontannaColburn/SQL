@@ -1,6 +1,0 @@
-SELECT
-    start_station,
-    COUNT(start_station) as trip_count
-FROM
-    trips
-GROUP by start_station;
